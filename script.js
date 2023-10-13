@@ -61,7 +61,7 @@ const names =[ "felix", "danie", "tobi", "eric", "amara", "felix", "felix", "dan
 // flat methods
 // it is use to flating an arrays e.g
 
-let num = [ 1,2,3,4,5,[6,7,8,[9,10,11]],12,13,14]
+// let num = [ 1,2,3,4,5,[6,7,8,[9,10,11]],12,13,14]
 //  here we have arrays inside another array so for us to have just one array we use flat.
 
 //  let flat = num.flat()
@@ -120,12 +120,40 @@ let num = [ 1,2,3,4,5,[6,7,8,[9,10,11]],12,13,14]
 // let newpost = post.filter(post=>post.author === "felix");
 // console.log(newpost)
 // here in the example it return all the author that has  felix
+
 // another example
 
+// const namesWithE = names.filter(names => names.toLowerCase().includes("E"));
+//     console.log(namesWithE)
 
-const namesWithE = names.filter(n => names.toLowerCase().includes("E"));
-    console.log(namesWithE)
+//  Reduce methods
+// the reduce methods can be use to sum up numbers together e.g
+// let number = [1,2,3,4,5,6,7,8,9] 
+// let totalValuel =number.reduce((total, currentValuel) => total + currentValuel)
+// console.log(totalValuel)
 
+// the total in the bracket stand for the innitial value which can be set to zero but in this example is set to 1 because 1 is the initial value in the array, if total is not specifiel it take the first number in the array by defult
+
+
+// some methods
+//  it is use to check if one or more value in an array meet the condition and reture true or false e.g
+
+// let num = [1, 6,2,3,7,8, 5,9] 
+// let number = num.some(n => n<4)
+// console.log(number)
+
+//  this will check if the condition is true and reture it else it will reture false.
+
+
+// Every nethods
+// it loop through our array and if every single element meet the condition it reture true otherwise false e.g
+
+
+// let num = [1, 6,2,3,7,8, 5,9] 
+// let isGreater = num.every(n => n>0)
+// console.log(isGreater)
+
+// thiks will reture true because all the number in the array is greater then 0. but if you change 0 to 1 e.g (n => n>1) it will reture false because the first element which is 1 is  not greater than 1 
 
 
 
