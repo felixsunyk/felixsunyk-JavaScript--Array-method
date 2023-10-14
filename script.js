@@ -155,6 +155,64 @@ const names =[ "felix", "danie", "tobi", "eric", "amara", "felix", "felix", "dan
 
 // thiks will reture true because all the number in the array is greater then 0. but if you change 0 to 1 e.g (n => n>1) it will reture false because the first element which is 1 is  not greater than 1 
 
+//  find methods
+// it can be use to fine a value in an array e.g
+
+// let stock = [
+//     {item: "apple", quatity:12},
+//     {item: "orange", quatity:9},
+//     {item: "banana", quatity:12},
+// ]
+
+// let first = stock.find(n => n.item === "orange")
+// console.log(first) 
+//this reture the orange object
+
+// fineIndex methods
+// this is use to fine the index where the element in the array meet the condition e.g
+
+// let stock = [
+//     {item: "apple", quatity:12},
+//     {item: "orange", quatity:9},
+//     {item: "banana", quatity:12},
+// ]
+
+// let banana = stock.findIndex(n => n.item === "banana")
+// console.log(banana)
+//  this will reture the index of banana in the array which is 2
+
+// sort methods
+
+// it is use to sort numbers or alphebet from decending to accending order e.g
+
+// let firstName = ["joy", "felix", "eric", "joe", "zoa"]
+// let newName = firstName.sort()
+// console.log(newName)
+
+// sorting with numbers
+// this methods work with numbers between 0 and 9
+// let numbers = [13,43,1,2,3,6,8,0,9,7,,5,6]
+// let num = numbers.sort();
+// console.log(num)
+
+// this methods work with numbers between 0 and infinity 
+
+// let numbers = [13,43,1,2,3,6,8,0,9,7,,5,6]
+// let num = numbers.sort((a, b) => a-b);
+// console.log(num)
+
+// the first number in the array is assign to A and the next to B. if after compareing A and B then the answer is nagative it mean that B is greater then A if the answer is positive it knows that  B will come first befor A
+
+
+
+
+
+
+
+
+
+
+
 
 
 
